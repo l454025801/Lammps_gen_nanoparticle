@@ -1,0 +1,7 @@
+This repository contains a python script for generating nanoparticle molecule files for LAMMPS simulations
+
+To use, first create an input file. For details, please check input_example.txt.
+
+Python3 gen_np.py -in input.txt
+
+This script will generate a txt file which satisfies the LAMMPS input format.
